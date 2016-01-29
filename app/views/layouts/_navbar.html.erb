@@ -1,0 +1,45 @@
+<!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-main-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <span class="glyphicon glyphicon-tree-deciduous"></span>
+                    <span class="light">Omega</span>Life
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <%= link_to 'Inicio', root_path, class: 'page-scroll' %>
+                    </li>
+                    <li>
+                        <%= link_to 'Beneficios del Omega 3', beneficios_path, class: 'page-scroll' %>
+                    </li>
+                    <li>
+                        <%= link_to 'Nuestros productos', productos_path, class: 'page-scroll' %>
+                    </li>
+                    <li>
+                        <%= link_to 'Comprar', comprar_path, class: 'page-scroll' %>
+                    </li>
+                    <li>
+                        <%= link_to 'Acerca de', about_path, class: 'page-scroll' %>
+                    </li>
+                    <li>
+                        <%= link_to 'Contacto', contacto_path, class: 'page-scroll' %>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
