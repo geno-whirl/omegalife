@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
 
-  root 'Toti#home'
+  root 'page#home'
   
 end
